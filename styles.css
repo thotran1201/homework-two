@@ -1,0 +1,465 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+.login-strip {
+  height: 60px;
+  background-color: #747e59;
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  width: 70px;
+  background-color: #a73a3d;
+  text-align: center;
+  display: block;
+  font-family: "Fira Sans Condensed", sans-serif;
+  height: 35px;
+  padding: 7px;
+}
+
+.button a {
+  color: #747e59;
+  text-decoration: none;
+}
+
+.button a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.join {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.join-text {
+  margin-left: 15px;
+  padding: 1px;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-size: 15px;
+  color: black;
+  margin-top: 7px;
+}
+
+.login {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.login img {
+  width: 25px;
+  height: 25px;
+}
+
+.login a {
+  color: black;
+  text-decoration: none;
+  font-family: "Fira Sans Condensed", sans-serif;
+}
+
+.login a:hover {
+  color: #a73a3d;
+}
+
+.placeholder {
+  visibility: hidden;
+}
+
+nav {
+  width: 1200px;
+  height: 50px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: #747e59;
+}
+
+.links {
+  width: 700px;
+  display: flex;
+  padding: 3px;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Fira Sans Condensed", sans-serif;
+}
+
+.icons img {
+  height: 23px;
+  width: 23px;
+  margin-right: 15px;
+  margin-top: 30px;
+}
+
+body {
+  background-color: #4b5320;
+}
+
+.container {
+  display: block;
+  margin: 2em auto;
+  background-color: #d3d3d3;
+  max-width: 1400px;
+  text-align: center;
+}
+
+.banner-image {
+  background-image: url(../images/Josh-Kato-Good-Night-2021-Campout-20.jpg);
+  height: 750px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.logo {
+  background-color: #4b5320;
+  width: 300px;
+  height: 40px;
+  position: absolute;
+  margin-top: 150px;
+}
+
+.story-title {
+  color: white;
+  display: inline-block;
+  margin-top: 20%;
+  font-family: "Fira Sans Condensed", sans-serif;
+  letter-spacing: 15px;
+}
+
+.dispatch {
+  background-color: #d3d3d3;
+  margin-top: 0px;
+}
+
+.dispatch a {
+  color: black;
+  letter-spacing: 3px;
+}
+
+.dispatch a:hover {
+  color: #a73a3d;
+  text-decoration: none;
+}
+
+.article img {
+  height: 100px;
+}
+
+.articles {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 40px;
+}
+
+.article {
+  width: 150px;
+  text-align: left;
+  font-size: 11.5px;
+}
+
+.article p {
+  color: gray;
+  letter-spacing: 1px;
+}
+
+.article h3 {
+  color: black;
+  letter-spacing: 1px;
+}
+
+.loading img {
+  width: 20px;
+  height: 20px;
+  padding-right: 5px;
+}
+
+.loading a {
+  display: flex;
+  justify-content: center;
+  color: #a73a3d;
+}
+
+.loading a:hover {
+  opacity: 0.7;
+  color: #4b5320;
+}
+
+.dispatch-title {
+  padding-top: 20px;
+}
+
+.bikead {
+  font-family: "EB Garamond", serif;
+  font-size: 11px;
+  padding-top: 40px;
+  color: #a73a3d;
+}
+
+.bikead img {
+  height: 135px;
+}
+
+.adtext {
+  font-family: "Fira Sans Condensed", sans-serif;
+  text-align: center;
+  width: 700px;
+  margin: 3em auto;
+  line-height: 30px;
+  color: black;
+  letter-spacing: 0.2px;
+}
+
+.adtext a {
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: gray;
+}
+
+.bikepacking101 img {
+  height: 295px;
+}
+
+.adtext a:hover {
+  text-decoration-color: black;
+}
+
+.explore {
+  color: black;
+  font-size: 10px;
+  font-family: "Fira Sans Condensed", sans-serif;
+  margin-top: 3em;
+}
+
+.tab {
+  background-color: black;
+  color: white;
+  height: 50px;
+  width: 120px;
+  margin: 0 auto;
+  line-height: 49px;
+}
+
+.square-link {
+  color: white;
+  display: block;
+  letter-spacing: 3px;
+  display: none;
+  padding-top: 100px;
+}
+
+.box:hover .square-link {
+  display: block;
+  background-color: black;
+  opacity: 0.7;
+  width: 300px;
+  height: 300px;
+  text-decoration: none;
+}
+
+.box {
+  height: 300px;
+  width: 300px;
+}
+
+.boxes {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.uno {
+  background-image: url(../images/night.JPG);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.dos {
+  background-image: url(../images/tools.JPG);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.tres {
+  background-image: url(../images/jungle_bike.JPG);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.cuatro {
+  background-image: url(../images/mathematical_tools.JPG);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sponsors {
+  color: gray;
+  font-size: 14px;
+  font-family: "Fira Sans Condensed", sans-serif;
+  margin-top: 3em;
+}
+
+.sponsor-title {
+  background-color: white;
+  color: rgb(161, 161, 161);
+  height: 50px;
+  width: 400px;
+  margin: 0 auto;
+  line-height: 49px;
+}
+
+.sponsors img {
+  height: 140px;
+  width: 140px;
+}
+
+.sponsor-list .row {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.sponsor-list {
+  padding: 66px;
+}
+
+.color-logo {
+  display: none;
+}
+
+.sponsor:hover .color-logo {
+  display: block;
+}
+
+.sponsor:hover .light-logo {
+  display: none;
+}
+
+.footer {
+  background-color: #747e59;
+  height: 740px;
+}
+
+.rabbit img {
+  height: 190px;
+}
+
+.footer h3 {
+  color: #a73a3d;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-size: 18px;
+  letter-spacing: 3px;
+}
+
+.footer-text {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  width: 700px;
+  margin: 3em auto;
+  line-height: 30px;
+  letter-spacing: 0px;
+}
+
+.footer-text a {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  text-decoration: underline;
+  text-decoration-color: #545e40;
+}
+
+.footer-text a:hover {
+  text-decoration-color: black;
+}
+
+.social-media-channels {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.social-media-channels img {
+  height: 20px;
+  width: 20px;
+}
+
+.footerlink h3 {
+  color: black;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.footerlink {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.row {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  width: 1000px;
+  margin: 3em auto;
+  line-height: 25px;
+}
+
+.row a {
+  color: #a73a3d;
+  font-size: 14px;
+}
+
+.row a:hover {
+  text-decoration-color: #a73a3d;
+  text-decoration: underline;
+}
+
+.copyright {
+  color: black;
+  background-color: #747e59;
+  margin-bottom: 4em;
+  font-family: "Roboto", sans-serif;
+}

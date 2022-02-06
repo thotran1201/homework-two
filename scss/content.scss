@@ -1,0 +1,212 @@
+body {
+  background-color: #4b5320;
+}
+
+.login-strip {
+  height: 60px;
+  background-color: #747e59;
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  width: 70px;
+  background-color: #a73a3d;
+  text-align: center;
+  display: block;
+  font-family: "Fira Sans Condensed", sans-serif;
+  height: 35px;
+  padding: 7px;
+}
+
+.button a {
+  color: #747e59;
+  text-decoration: none;
+}
+
+.button a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.join {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.login {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.login img {
+  width: 25px;
+  height: 25px;
+}
+
+.login a {
+  color: black;
+  text-decoration: none;
+  font-family: "Fira Sans Condensed", sans-serif;
+}
+
+.login a:hover {
+  color: #a73a3d;
+}
+
+.container {
+  display: block;
+  margin: 2em auto;
+  background-color: #d3d3d3;
+  max-width: 1400px;
+  text-align: center;
+}
+
+.dispatch {
+  background-color: #d3d3d3;
+  margin-top: 0px;
+}
+
+.article img {
+  height: 100px;
+}
+
+.articles {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 40px;
+}
+
+.loading img {
+  width: 20px;
+  height: 20px;
+  padding-right: 5px;
+}
+
+.loading a {
+  display: flex;
+  justify-content: center;
+  color: #a73a3d;
+}
+
+.loading a:hover {
+  opacity: 0.7;
+  color: #4b5320;
+}
+
+.bikead img {
+  height: 135px;
+}
+
+.bikepacking101 img {
+  height: 295px;
+}
+
+.tab {
+  background-color: black;
+  color: white;
+  height: 50px;
+  width: 120px;
+  margin: 0 auto;
+  line-height: 49px;
+}
+
+.square-link {
+  color: white;
+  display: block;
+  letter-spacing: 3px;
+  display: none;
+  padding-top: 100px;
+}
+
+.box:hover .square-link {
+  display: block;
+  background-color: black;
+  opacity: 0.7;
+  width: 300px;
+  height: 300px;
+  text-decoration: none;
+}
+
+.box {
+  height: 300px;
+  width: 300px;
+}
+
+.boxes {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.uno {
+  background-image: url(../images/night.JPG);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.dos {
+  background-image: url(../images/tools.JPG);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.tres {
+  background-image: url(../images/jungle_bike.JPG);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.cuatro {
+  background-image: url(../images/mathematical_tools.JPG);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sponsor-title {
+  background-color: white;
+  color: rgb(161, 161, 161);
+  height: 50px;
+  width: 400px;
+  margin: 0 auto;
+  line-height: 49px;
+}
+
+.sponsors img {
+  height: 140px;
+  width: 140px;
+}
+
+.sponsor-list .row {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.sponsor-list {
+  padding: 66px;
+}
+
+.color-logo {
+  display: none;
+}
+
+.sponsor:hover .color-logo {
+  display: block;
+}
+
+.sponsor:hover .light-logo {
+  display: none;
+}
